@@ -1,0 +1,233 @@
+button,input,input::placeholder{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+}
+button:hover,input:hover{
+    opacity: 80%;
+}
+input::placeholder{
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BDBDBD;
+}
+.login_form{
+    width: 428px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 36px 24px;
+    margin: 86px auto 280px auto;
+}
+.login_top{
+    width: 348px;
+    height: 29px;
+    padding: 0 48px;
+    display: flex;
+}
+.login_button{
+    width: 71px;
+    height: 29px;
+    margin-right: 70px;
+}
+.login_button>button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #333333;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #4174CB;
+    border: none;
+    cursor: pointer;
+}
+.registration_button>button{
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #333333;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.login_button_fiz{
+    height: 29px;
+    margin-right: 70px;
+}
+.login_button_fiz>button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #333333;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #4174CB;
+    border: none;
+    cursor: pointer;
+}
+.registration_button_yor>button{
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #333333;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.registration_button{
+    width: 110px;
+    height: 24px;
+}
+.login_bottom>form{
+    display: flex;
+    flex-direction: column;
+}
+.login_email{
+    width: 100%;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    border: none;
+    margin-top: 48px;
+    padding-left: 4px;
+}
+.login_password{
+    width: 100%;
+    margin-top: 32px;
+    border: none;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    padding-left: 4px;
+}
+.autorization_button>button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: #4174CB;
+    border-radius: 2px;
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.registration_form{
+    width: 780px;
+    height: 518px;
+    background: #FFFFFF;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin: 86px auto 280px auto;
+    padding: 32px 16px;
+    display: flex;
+}
+.reg_form_left{
+    width: 380px;
+    /* height: 454px; */
+    background: #FFFFFF;
+    box-shadow: 1px 0px 0px #8FAFE5;
+}
+.reg_form_top{
+    padding: 0px 48px;
+}
+.reg_form_log_reg,.reg_form_fiz_yor{
+    display: flex;
+}
+.reg_form_fiz_yor{
+    margin: 32px 0 48px 0;
+}
+.form_reg{
+    width: 352px;
+    height: 224px;
+}
+.form_reg>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form_reg>form>input{
+    margin-bottom: 32px ;
+    padding-left: 4px;
+    height: 32px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 2px 0px #E0E0E0;
+}
+.registration_buttontwo>button{
+    width: 100%;
+    height: 40px;
+    background: #4174CB;
+    border-radius: 2px;
+    border: none;
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.reg_form_rigt{
+    width: 348px;
+    height: 250px;
+    margin: 0 auto;
+}
+.reg_form_rigt>h1,.reg_form_rigt>p{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    white-space: normal!important;
+}
+.reg_form_rigt>h1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 24px;
+}
+.reg_form_rigt>p{
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin-bottom: 32px;
+}
+.form_reg_org{
+    display: none;
+}
+.form_reg_fiz{
+    display: none;
+}
+.login_form{
+    display: show;
+}
+.registration_form{
+    display: none;
+}
+
+#erconts{
+    margin-top: 5px;
+    white-space: normal;
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+
+#errLog{
+    margin-top: 5px;
+    white-space: normal;
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}

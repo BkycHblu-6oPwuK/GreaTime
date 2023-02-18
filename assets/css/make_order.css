@@ -1,0 +1,247 @@
+.main_order{
+    margin-top: 30px;
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+}
+.form_order{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.order_left{
+    width: 778px;
+}
+.order_left h1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4174CB;
+}
+.order_left span{
+    margin-left: 8px;
+}
+.main_order_details>h1{
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #333333;
+}
+.delivery_method>div{
+    margin-top: 16px;
+}
+.delivery_method>div input[type="radio"],input[type="checkbox"]{
+    margin: 8px;
+}
+
+.buyer{
+    margin-top: 32px;
+}
+.buyer>nav{
+    margin: 16px 0 20px 0;
+}
+.buyer input{
+    border: none;
+    background-color: none ;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    width: 375px;
+    height: 32px;
+}
+.buyer input[placeholder="Имя"],input[placeholder="Телефон"]{
+    margin-right: 20px;
+}
+
+.pay_method{
+    margin-top: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.pay_method>h1{
+    margin-bottom: 16px;
+}
+.pay_method>nav{
+    display: flex;
+    justify-content: space-between;
+}
+.pay_method>nav>div{
+    padding: 2px 8px 2px 0px;
+    gap: 8px;
+    width: 390px;
+    height: 36px;
+}
+.pay_method>div{
+    display: flex;
+    justify-content: space-between;
+}
+.pay_method>div>div{
+    padding: 2px 8px 2px 0px;
+    gap: 8px;
+    width: 390px;
+    height: 36px;
+}
+
+.order_consert{
+    margin: 32px 0 28px 0;
+}
+.order_consert>nav{
+    margin-top: 10px;
+}
+
+.mailling{
+    margin-top: 28px;
+}
+.order_buy{
+    margin: 18px 0 18px 0;
+}
+.order_left>input[type="submit"]{
+    margin-top: 32px;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 320px;
+    height: 40px;
+    background: #4174CB;
+    border-radius: 2px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.order_right{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    width: 348px;
+    height: max-content;
+    background: #FFFFFF;
+    box-shadow: -8px 8px 20px rgba(112, 155, 229, 0.16);
+    border-radius: 4px;
+    border: 1px solid #33333331;
+}
+.order_right p,h2{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    color: #333333;
+}
+.prod_usl{
+    margin-top: 32px;
+    width: 100%;
+}
+.prod_delivery,.prod_nds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.prod_usl h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.prod_nds{
+    margin: 16px 0 24px 0;
+}
+.promo{
+    padding: 8px 0 8px 4px;
+    gap: 10px;
+    width: 347px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    border: none;
+}
+
+.itog{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.itog>h2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.itog>span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4174CB;
+}
+
+.legal_entity{
+    display: none;
+}
+.legal_entity>div{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.legal_entity>div>div, .legal_entity>div>nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 0px 8px;
+    gap: 20px;
+}
+
+.main_order_details{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about_order{
+    display: flex;
+    gap: 50px;
+}
+.details_products{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.about_order_arrow{
+    display: flex;
+    cursor: pointer;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+}
+.about_order_arrow>img{
+    rotate: 90deg;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.order_details_products{
+    background-color: #f3f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    display: none;
+    margin: 20px 0 0 -90px;
+}
+.details_prod_title{
+    /* width: 340px; */
+    white-space: normal;
+    display: flex;
+    align-items: center;
+}
+
+.about_order_block_price{
+    display: flex;
+    gap: 5px;
+}
+.details_prod_title > span {
+    margin-right: 5px;
+}
+.buer_adress{
+    display: none;
+}

@@ -1,0 +1,279 @@
+.main_profile{
+    display: flex;
+    gap: 20px;
+}
+.main_profile>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    padding: 0px;
+    gap: 12px;
+    box-shadow: 2px 0px 0px #E0E0E0;
+}
+.main_profile>nav>div{
+    margin-top: 24px;
+    display: flex;
+    gap: 100px;
+}
+
+.myProfile_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px 8px 16px;
+    border: none;
+    width: 300px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.myOrders_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px 8px 16px;
+    border: none;
+    width: 300px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.h1_Myprofile{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.main_profile>nav>div>div, .main_profile>nav>div>nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+.main_profile>nav>div>div>p , .updProfile_block>div>div>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+.main_profile>nav>div>nav>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+.profileUpd_button{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    background: #4174CB;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.profileUpdNon_button>span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.profileUpdNon_button:hover{
+    opacity: 70%;
+}
+
+.updProfile_block>div{
+    display: flex;
+    gap: 100px;
+}
+.updProfile_block>div>div>p>span{
+    color: #E7552C;
+}
+.updProfile_block>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 0px 0px;
+    gap: 45px;
+}
+.form_profileUpd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    padding: 11px 0px 0px;
+    gap: 30px;
+}
+.form_profileUpd>input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px 8px 4px;
+    gap: 10px;
+    width: 408px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    border: none;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.updProfile_block{
+    display: none;
+}
+
+.form_profileUpd>div{
+    display: flex; 
+    gap: 25px;
+}
+
+.my_orders{
+    width: calc(100% - 320px);
+}
+.block_my_order{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+    background: #f8f8f8;
+    position: relative;
+    border-radius: 5px;
+}
+.my_order_header{
+    display: flex;
+    padding: 10px;
+    background: #ededed;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+}
+.info_my_order{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.status_my_order{
+    padding: 4px 8px;
+    background-color: tomato;
+    border-radius: 5px;
+    cursor: default;
+}
+.order_header_del_btn>input[type="submit"]{
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #ff2600;
+}
+.images_products{
+    display: flex;
+    overflow: hidden;
+    gap: 14px;
+}
+.image_product{
+    width: 100px;
+    height: 100px;
+}
+.image_product>img,.image_product>a>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.order_body{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.order_price_block{
+    padding-bottom: 20px;
+}
+.name_my_order{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #333333;
+    cursor: pointer;
+}
+.status_my_order{
+    color: #FFFFFF;
+}
+.order_price_block{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+}
+.order_price_block>div,.order_conditions_block>span,.product_name>a,.product_num>span:not(:first-child){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #333333;
+}
+.order_conditions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.order_conditions_block>span:not(:first-child){
+    margin-left: 5px;
+}
+.order_details_prod{
+    justify-content: unset;
+}
+.order_product_desc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.product_num>span:first-child{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #676767;
+}
+.product_rev>a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #4174CB;
+}
+.about_order_arr{
+    display: flex;
+    cursor: pointer;
+    background-color: inherit;
+    width: 30px;
+    height: 30px;
+}
+.about_order_arr>img{
+    rotate: 90deg;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.order_details{
+    display: none;
+}

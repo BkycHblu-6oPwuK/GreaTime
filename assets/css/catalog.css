@@ -1,0 +1,328 @@
+select{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+}
+.all_catalog{
+    display: flex;
+    margin: 60px auto auto auto;
+}
+.filters{
+    width: 340px;
+    border-right: 2px solid rgba(130, 130, 130, 0.470);
+}
+.filters_top{
+    width: 340px;
+    height: 56px;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    border-bottom: 2px solid rgba(130, 130, 130, 0.470);
+}
+.filters_top>p{
+    margin: 15px 0 0 0;
+}
+.filters_top>p,.p_filters_brand_blue{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4174CB;
+}
+.p_filters_brand_blue{
+    margin-top: 64px;
+    width: 340px;
+    height: 46px;
+    border-bottom: 2px solid rgba(130, 130, 130, 0.470);
+}
+.p_filters_brand_black{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 21px;
+    color: #333333;
+    width: 340px;
+    padding: 20px 0 20px 0;
+}
+.filters_brand_form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.filters_brand_form > div{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.filters_name{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.filters_name:hover{
+    background-color: #e1e1e1;
+}
+.filters_brand select {
+    height: 48px;
+}
+.filters_tovar{
+    display: flex;
+    flex-direction: column;
+}
+.filters_tovar select {
+    height: 40px;
+}
+.button_filters_tovar{
+    text-align: start;
+    padding-left: 20px;
+    cursor: pointer;
+    border: 1px solid #c7c7c7;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.15);
+    width: 340px;
+    height: 48px;
+    background: #FFFFFF;
+}
+.button_filters_tovar:hover{
+    background: #c0c0c062;
+}
+.filters_brand_input {
+    display: flex;
+    flex-direction: column;
+}
+.filter_input,.select_all_button{
+    padding: 10px 8px 10px 16px;
+    gap: 8px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.filter_input:hover,.select_all_button:hover{
+    background-color: #BDBDBD;
+}
+.select_all_button{
+    box-shadow: 0 1px 0 0 #e5e5e5;
+}
+.filters_input{
+    max-height: 195px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.filters_brand_input div input{
+    margin-right: 8px;
+}
+.input_price{
+    margin-bottom: 25px;
+}
+.filters_price input {
+    width: 136px;
+    height: 32px;
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+.input_checbox{
+    cursor: pointer;
+}
+.span_name_filter{
+    font-weight: 400;
+    font-size: 17px;
+}
+/* .span_checbox{
+    background: #fff;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-left: -22px;
+
+} */
+/* end left filters */
+
+.right_catalog{
+    /* max-width: 840px; */
+}
+.catalog_sorting{
+    display: flex;
+    flex-direction: row;
+}
+.catalog_top_h1{
+    max-width: 100%;
+    height: 71px;
+    padding: 0px 12px;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    border-bottom: 2px solid rgba(130, 130, 130, 0.470);
+}
+.catalog_top_h1>h1,.basket_top>h1{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #333333;
+}
+.sorting_text{
+    width: 103px;
+    height: 32px;
+    background: #4174CB;
+    margin: 20px 0 24px 12px;
+}
+.sorting_text>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 8px;
+}
+.sorting_select{
+    width: 212px;
+    height: 32px;
+    margin-top: 20px;
+}
+.sorting_select>select{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #4174CB;
+    border-radius: 0px 2px 2px 0px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'liga' off;
+    color: #333333;
+    padding-left: 15px;
+}
+.sorting_amount{
+    margin-top: 20px;
+}
+.sorting_amount>select{
+    width: 81px;
+    height: 32px;
+    padding-left: 15px;
+    border: 1px solid #4174CB;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'liga' off;
+    color: #333333;
+}
+.catalog_tovar{
+    max-width: 250px;
+    padding: 10px 0;
+    background: #ffffff;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    /* margin: 0px 0px 44px 25px; */
+}
+.catalog_tovars_two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    margin-left: 12px;
+}
+.catalog_tovars{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.string_page{
+    display: flex;
+}
+.string_page_arrow ul , .string_page_arrow_two ul{
+    display: flex;
+    width: 48px;
+    height: 20px;
+}
+.string_page_str ul {
+    display: flex;
+    width: 168px;
+    justify-content: space-between;
+    height: 28px;
+}
+.string_page_arrow_li_one{
+    margin-right: 8px;
+}
+.string_page_str ul li a{
+    font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Gray 3 */
+
+color: #828282;
+}
+.string_page_arrow{
+    margin-left: 12px;
+    margin-right: 20px;
+}
+.string_page_arrow_two{
+    margin-left: 20px;
+    width: 48px;
+    height: 20px;
+}
+.string_page_arrow_li_two{
+    margin-right: 8px;
+}
+.string_page_arrow_two ul{
+    justify-content: flex-end;
+}
+.visible_page_text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+.visible_page_text{
+    width: 272px;
+    margin-left: 15px;
+}
+.catalog_bottom{
+    width: 100%;
+    display: flex;
+    margin: 32px 0 100px 0;
+}
+.catalog_bottom>a{
+    margin-left: 20px;
+}
+
+.favourites{
+    width: 1140px;
+}
+
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+.button_apply_filers{
+    height: 40px;
+    background: #4174CB;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    border: 1px solid #4174CB;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}

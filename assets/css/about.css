@@ -1,0 +1,126 @@
+.about_block{
+    margin-top: 28px;
+}
+.about_block h1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4174CB;
+}
+.requisites_block{
+    display: flex;
+}
+.requisites_block span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.requisites_block p {
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    white-space: normal;
+}
+.requisites_block>nav{
+    margin-left: 34px;
+    width: 403px;
+}
+.requisites_block>div,.requisites_block>nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+.requisites_block{
+    margin: 16px 0 32px 0;
+}
+.address_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 228px;
+}
+.address_block>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 272px;
+}
+.address_block>div>section,.address_block>div>nav,.address_block>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.address_block>div>nav>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-left: 24px;
+}
+.address_block>div>div>div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+}
+.address_block>div>div>div>a>img{
+    width: 28px;
+    height: 28px;
+}
+.address_block>div>section>p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+.address_block>div>nav>div>a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    position: relative;
+}
+.address_block>div>nav>div>a::before{
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-image: url("../../vendor/img/icons/Call.png");
+    margin-left: -24px;
+    margin-top: -2px;
+}
+
+.main_about>h1 , .about_company>h1{
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.about_company>div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 1180px;
+    margin: 32px 0 24px 0;
+}
+.about_company>div>div{
+    width: 580px;
+}
+.about_company>div>div>p{
+    white-space: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 160.4%;
+    text-align: justify;
+    color: #333333;
+}

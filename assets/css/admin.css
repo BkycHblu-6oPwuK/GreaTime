@@ -1,0 +1,90 @@
+.main_admin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    white-space: normal;
+}
+.admin_row{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.admin_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.a_btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #4174CB;
+    color: white;
+    width: fit-content;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    white-space: normal;
+}
+tbody tr:nth-child(odd){
+    background-color: #f1ffff;
+}
+.form_upd{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.form_upd textarea{
+    white-space: normal;
+}
+.form_upd input {
+    width: 300px;
+}
+.adm_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.form_upd input[type="submit"] {
+    border-radius: 5px;
+    background-color: #4174CB;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    width: fit-content;
+}
+.block_column{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.remove_block{
+    margin-top: 5px;
+}
+.block_size{
+    margin-top: 10px;
+}
+.btn{
+    display: none;
+}
+.active{
+    background: #1a69f1;
+}

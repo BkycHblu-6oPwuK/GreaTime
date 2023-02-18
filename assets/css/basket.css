@@ -1,0 +1,220 @@
+.basket_all{
+    width: 1180px;
+    margin: 0px auto 100px auto;
+}
+.basket_top{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.basket_pre-top{
+    height: 28px;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+}
+.basket_p_foto{
+    margin-right: 130px;
+    margin-left: 60px;
+}
+.basket_p_name{
+    margin-right: 463px;
+}
+.basket_p_price{
+    margin-right: 53px;
+}
+.basket_p_kol-vo{
+    margin-right: 56px;
+}
+.basket_p_total{
+
+}
+
+.tovar_basket{
+    margin-top: 20px;
+    display: flex;
+    width: 1179px;
+    height: 100px;
+    padding: 10px 0 10px 0;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    position: relative;
+}
+.btn_close{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 1158px;
+    margin-top: 5px;
+}
+.btn_close>button{
+    background: none;
+    border: none;
+}
+.tovar_basket_img{
+    width: 100px;
+    height: 100px;
+    margin-right: 102px;
+    margin-left: 27px;
+}
+.tovar_basket_name{
+    width: 360px;
+    height: 100px;
+    margin-right: 260px;
+    margin-top: 10px;
+}
+.tovar_basket_name>div{
+    display: flex;
+}
+.tovar_basket_price{
+    width: 72px;
+    height: 22px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.tovar_basket_kol-vo{
+    width: 128px;
+    height: 32px;
+    margin: auto;
+}
+.tovar_basket_total{
+    width: 72px;
+    height: 22px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.tovar_basket_img>picture>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.basket_top>h1{
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.basket_center p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+.tovar_basket_name>div>h1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #4174CB;
+    margin-right: 5px;
+}
+.tovar_basket_name>p{
+    margin-top: 10px;
+    white-space: normal;
+}
+.tovar_basket_price>p, .tovar_basket_total>p{
+    font-weight: 500;
+    position: relative;
+}
+
+.basket_bottom{
+    margin-top: 64px;
+    padding: 0px 22px 16px;
+    gap: 24px;
+    background: #F2F2F2;
+    border-radius: 4px;
+}
+.bottom_price-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px 20px;
+    background: #F2F2F2;
+    box-shadow: 0px 2px 0px #E0E0E0;
+}
+.bottom_price-bot{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 134px;
+    height: 45px;
+}
+.itog_price{
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+}
+.summ_nds{
+    margin-top: 16px;
+    display: flex;
+    gap: 134px;
+    height: 24px;
+}
+.promokod>div>form>input{
+    margin-top: 16px;
+    padding: 8px 16px 8px 4px;
+    width: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #E0E0E0;
+    border: none;
+}
+.promokod>div>form>input[type="submit"]{
+    width: 140px;
+    color: #ffffff;
+    background-color: #4174CB;
+    cursor: pointer;
+}
+.bottom_price-top p,.bottom_price-top span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.bottom_price-top span {
+    font-weight: 600;
+}
+.bottom_price-bot>p,.bottom_price-bot>span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4174CB;
+}
+.bottom_price-bot>span{
+    font-weight: 500;
+}
+.zakas{
+    display: flex;
+    justify-content: end;
+}
+button[name="zakas"]{
+    margin-top: 30px;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 156px;
+    height: 40px;
+    background: #4174CB;
+    border-radius: 2px;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F2F2F2;
+}
+
+.itog_price>span,.summ_nds>span,.bottom_price-bot>span{
+    position: relative;
+}
+.itog_price>span::after,.summ_nds>span::after,.bottom_price-bot>span::after{
+    position: absolute;
+    content: "₽";
+}
+.tovar_basket_price>::after, .tovar_basket_total>::after{
+    position: absolute;
+    content: "₽";
+}
+.form_promo{
+    margin-bottom: 10px;
+}
