@@ -34,7 +34,7 @@ if($_POST['sorting'] == 'high'){
 <?php
     $_GET['page'] = $_POST['page'];
     $page = $_POST['page'];
-    $kol = 3; //количество записей для вывода
+    $kol = 15; //количество записей для вывода
     $art = ($page * $kol)-$kol; // определяем, с какой записи нам выводить
     $filename = 'catalog.php';
     $name = 'catalog_tovar';

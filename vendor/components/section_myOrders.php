@@ -8,7 +8,7 @@ if(isset($_POST['page'])){
     $_GET['page'] = 1;
     $page = 1;
 }
-$kol = 2; //количество записей для вывода
+$kol = 10; //количество записей для вывода
 $art = ($page * $kol)-$kol; // определяем, с какой записи нам выводить
 $filename = '#';
 $res = mysqli_query($link,"SELECT COUNT(*) FROM `orders` WHERE `id_user` = {$_SESSION['user']['id']}");

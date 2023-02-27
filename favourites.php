@@ -8,7 +8,7 @@ if (isset($_GET['page'])){
     header('Location: favourites.php?page=1');
 }
 $filename = 'favourites.php';
-$kol = 1; //количество записей для вывода
+$kol = 12; //количество записей для вывода
 $art = ($page * $kol)-$kol; // определяем, с какой записи нам выводить
 $res = mysqli_query($link,"SELECT COUNT(*) FROM `favourites` WHERE `id_user` = '{$_SESSION['user']['id']}'");
 $row = mysqli_fetch_row($res);

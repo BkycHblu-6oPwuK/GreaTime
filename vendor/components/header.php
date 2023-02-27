@@ -26,7 +26,7 @@
              if($_SESSION['user']['admin']){
             ?>
             <div class="admin">
-                <p><a class="a_admin" href="admin.php">одминс</a></p>
+                <p><a class="a_admin" href="admin.php">Админ панель</a></p>
             </div>
             <? } ?>
         </div>
